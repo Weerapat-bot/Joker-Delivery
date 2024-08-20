@@ -13,7 +13,7 @@ const FoodList = () => {
 
   return (
     <div className="mb-4">
-      <h2 className="text-2xl font-semibold mb-2">Food Menu</h2>
+      <h2 className="text-2xl font-semibold mb-2">Joker Menu</h2>
       {items.length === 0 ? (
         <p>No items available for the selected category.</p>
       ) : (

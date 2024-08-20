@@ -17,19 +17,6 @@ const AdComponent = () => {
           className="w-1/2 h-1/2 object-cover"
         />
       </div>
-      {/* Right-side advertisements */}
-      <div className="w-1/6 h-screen flex flex-col justify-between p-2">
-        <img 
-          src="/images/ads-image.jpg"
-          alt="Advertisement 3"
-          className="w-1/2 h-1/2 object-cover"
-        />
-        <img 
-          src="/images/ads-image.jpg"
-          alt="Advertisement 4"
-          className="w-1/2 h-1/2 object-cover"
-        />
-      </div>
     </div>
   );
 };
